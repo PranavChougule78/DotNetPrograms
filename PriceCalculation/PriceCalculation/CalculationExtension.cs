@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PriceCalculation
+{
+    public class CalculationExtension
+    {
+        public decimal CalculatePrice(decimal basePrice, decimal taxRate)
+        {
+            return basePrice * taxRate;
+        }
+    }
+}
