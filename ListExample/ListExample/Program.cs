@@ -10,11 +10,12 @@ namespace ListExample
     {
         static void Main(string[] args)
         {
-          List<Employee> employees = new List<Employee>
+            List<Employee> employees = new List<Employee>
             {
                 new Employee { Name = "pranav", Age = 22 },
                 new Employee { Name = "sachin", Age = 25 },
                 new Employee { Name = "krushnan", Age = 24 },
+                new Employee {Name = "Viraj",Age  = 30},
             };
 
 
@@ -22,7 +23,8 @@ namespace ListExample
             {
                 Console.WriteLine($"Employee Name: {e.Name}, Employee Age:{e.Age}");
             }
-
+            
+    
 
 
 
